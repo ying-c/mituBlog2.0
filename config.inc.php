@@ -54,11 +54,11 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'localhost',
+  'host' => 'containers-us-west-85.railway.app',
   'user' => 'root',
-  'password' => '123456',
+  'password' => 'EB6tzhop9taY3wBzY1D1',
   'charset' => 'utf8',
-  'port' => '3306',
-  'database' => 'typecho',
+  'port' => '5507',
+  'database' => 'railway',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
